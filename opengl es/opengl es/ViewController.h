@@ -5,9 +5,9 @@
 //  Created by lotus on 2021/1/21.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <UIKit/UIKit.h>
 
-@interface ViewController : NSViewController
+@interface ViewController : UIViewController
 
 
 @end

@@ -1,0 +1,6 @@
+1.创建 tableview
+
+tableview 需要设置2个代理，
+//设置delegate和DataSouce
+self.tableView.delegate = self;
+self.tableView.dataSource = self;
