@@ -4,3 +4,19 @@ tableview 需要设置2个代理，
 //设置delegate和DataSouce
 self.tableView.delegate = self;
 self.tableView.dataSource = self;
+
+2.引入gl库 #import <GLKit/GLKit.h>
+3.
+
+创建 context，
+
+/* CAEAGLLayer is a layer that implements the EAGLDrawable protocol,
+ * allowing it to be used as an OpenGLES render target. Use the
+ * `drawableProperties' property defined by the protocol to configure
+ * the created surface. */
+ 
+创建  gllayer
+
+创建  renderbuffer
+
+创建  framebuffer
